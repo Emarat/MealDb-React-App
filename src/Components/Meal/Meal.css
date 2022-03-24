@@ -1,0 +1,20 @@
+.mealUI{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: #2d2013;
+}
+.displayMeal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-left: 50px;
+    margin: 50px 0;
+    color: aliceblue;
+    
+}
+
+.mealSummary{
+    color: aliceblue;
+    padding-left: 30px;
+}
+
